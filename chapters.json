@@ -108,6 +108,22 @@
       "groups": {
         "": "/proxy/api/imgur/chapter/pBMR1FI/"
       }
-    }    
+    },
+      "14": {
+      "title": "Flyby Anomaly",
+      "volume": "1",
+      "last_updated": "1705515751",
+      "groups": {
+        "": "/proxy/api/imgur/chapter/lO5EWEw/"
+      }
+    },
+      "15": {
+      "title": "Nene Saw",
+      "volume": "1",
+      "last_updated": "1705515751",
+      "groups": {
+        "": "/proxy/api/imgur/chapter/Odj73W4/"
+      }
+    } 
   }
 }
