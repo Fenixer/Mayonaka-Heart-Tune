@@ -14,7 +14,7 @@
       }
     },
     "2": {
-      "title": "A Message From Arisu Yamabuki",
+      "title": "A message from Arisu Yamabuki",
       "volume": "1",
       "last_updated": "1699788853",
       "groups": {
@@ -30,7 +30,7 @@
       }
     },
     "4": {
-      "title": "Three Weeks Until The Kiss",
+      "title": "Three weeks until the kiss",
       "volume": "1",
       "last_updated": "1699788853",
       "groups": {
@@ -46,7 +46,7 @@
       }
     },
     "6": {
-      "title": "Lock The Door If It's Embarrassing",
+      "title": "Lock the door if it's embarrassing",
       "volume": "1",
       "last_updated": "1699788853",
       "groups": {
@@ -54,7 +54,7 @@
       }
     },
     "7": {
-      "title": "I Can't Smile In Front Of The Camera!",
+      "title": "I can't smile in front of the Camera!",
       "volume": "1",
       "last_updated": "1699788853",
       "groups": {
@@ -62,7 +62,7 @@
       }
     },
     "8": {
-      "title": "I Can't Smile In Front Of You!",
+      "title": "I can't smile in front of You!",
       "volume": "1",
       "last_updated": "1699788853",
       "groups": {
@@ -78,7 +78,7 @@
       }
     },
     "10": {
-      "title": "Partners In Crime",
+      "title": "Partners in Crime",
       "volume": "1",
       "last_updated": "1701330438",
       "groups": {
@@ -86,7 +86,7 @@
       }
     },
     "11": {
-      "title": "The Advisor's Name Is Literally Lemon-chan",
+      "title": "The advisor's name is literally Lemon-chan",
       "volume": "1",
       "last_updated": "1702155056",
       "groups": {
@@ -94,7 +94,7 @@
       }
     },
     "12": {
-      "title": "I Can't Tell Whose Voice It Was",
+      "title": "I can't tell whose voice it was",
       "volume": "1",
       "last_updated": "1702665629",
       "groups": {
@@ -110,7 +110,7 @@
       }
     },
       "14": {
-      "title": "Flyby Anomaly",
+      "title": "Flyby anomaly",
       "volume": "1",
       "last_updated": "1705515751",
       "groups": {
@@ -118,11 +118,27 @@
       }
     },
       "15": {
-      "title": "Nene Saw",
+      "title": "Nene saw",
       "volume": "1",
       "last_updated": "1705515751",
       "groups": {
         "": "/proxy/api/imgur/chapter/Odj73W4/"
+      }
+    },
+    "16": {
+      "title": "Piece of cake",
+      "volume": "1",
+      "last_updated": "1705515751",
+      "groups": {
+        "": "/proxy/api/imgur/chapter/y24nbRn/"
+      }
+    },
+    "17": {
+      "title": "This is very hot, so please be careful",
+      "volume": "1",
+      "last_updated": "1705515751",
+      "groups": {
+        "": "/proxy/api/imgur/chapter/QFdPILW/"
       }
     } 
   }
