@@ -196,6 +196,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/vavu8tE/"
             }
+        },
+        "25": {
+            "title": "Direct Contact",
+            "volume": 1,
+            "last_updated": 1712164568,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/r00eQ9R/"
+            }
         }
     }
 }
