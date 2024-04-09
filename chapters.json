@@ -1,169 +1,217 @@
 {
-  "title": "Mayonaka Heart Tune",
-  "description": "When Arisu Yamabuki was all alone in bed at night, he was able to find solace in the voice of a radio host who went by “Apollo.” However, one day, she simply stopped broadcasting without any explanation.Years then passed, and Arisu is now a second-year high-schooler. He makes it his mission to search for Apollo, as there is something he wants to tell her. He doesn’t know what she looks like, or even what her real name is, but he manages to get some leads on her in his school’s broadcasting club. That’s where he meets four girls who all dream to get a job where they can make full use of their voices! Just who is Apollo, and how will those four’s dreams pan out \n\n(Source: K Manga)",
-  "artist": "Masakuni Igarashi",
-  "author": "Masakuni Igarashi",
-  "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx169272-VckwEOBw4djy.jpg",
-  "chapters": {
-    "1": {
-      "title": "Re:Start",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/vwpLf0D/"
-      }
-    },
-    "2": {
-      "title": "A message from Arisu Yamabuki",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/9UKT2G7/"
-      }
-    },
-    "3": {
-      "title": "Liar",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/GwHwWkQ/"
-      }
-    },
-    "4": {
-      "title": "Three weeks until the kiss",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/ZU5sZ6I/"
-      }
-    },
-    "5": {
-      "title": "Overture",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/iEMU2h8/"
-      }
-    },
-    "6": {
-      "title": "Lock the door if it's embarrassing",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/qzMYxAT/"
-      }
-    },
-    "7": {
-      "title": "I can't smile in front of the Camera!",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/In6F4lb/"
-      }
-    },
-    "8": {
-      "title": "I can't smile in front of You!",
-      "volume": "1",
-      "last_updated": "1699788853",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/GyDloqd/"
-      }
-    },
-    "9": {
-      "title": "All alone with you until dark",
-      "volume": "1",
-      "last_updated": "1701330438",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/zO987KA/"
-      }
-    },
-    "10": {
-      "title": "Partners in Crime",
-      "volume": "1",
-      "last_updated": "1701330438",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/ZaJeeZX/"
-      }
-    },
-    "11": {
-      "title": "The advisor's name is literally Lemon-chan",
-      "volume": "1",
-      "last_updated": "1702155056",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/MKdYJpq/"
-      }
-    },
-    "12": {
-      "title": "I can't tell whose voice it was",
-      "volume": "1",
-      "last_updated": "1702665629",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/O1ha3HG/"
-      }
-    },
-    "13": {
-      "title": "Arisu Yamabuki-kun",
-      "volume": "1",
-      "last_updated": "1704567724",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/pBMR1FI/"
-      }
-    },
-      "14": {
-      "title": "Flyby anomaly",
-      "volume": "1",
-      "last_updated": "1705515751",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/lO5EWEw/"
-      }
-    },
-      "15": {
-      "title": "Nene saw",
-      "volume": "1",
-      "last_updated": "1705515751",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/Odj73W4/"
-      }
-    },
-    "16": {
-      "title": "Piece of cake",
-      "volume": "1",
-      "last_updated": "1706965556",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/y24nbRn/"
-      }
-    },
-    "17": {
-      "title": "This is very hot, so please be careful",
-      "volume": "1",
-      "last_updated": "1706965556",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/QFdPILW/"
-      }
-    },
-    "18": {
-      "title": "20 points is still within the margin of error",
-      "volume": "1",
-      "last_updated": "1707398606",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/dgzn8dQ/"
-      }
-    },
-    "19": {
-      "title": "Forgetful",
-      "volume": "1",
-      "last_updated": "1708930041",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/XiRLJN9/"
-      }
-    },
-    "20": {
-      "title": "Emotion is a spontaneous process",
-      "volume": "1",
-      "last_updated": "1708930041",
-      "groups": {
-        "": "/proxy/api/imgur/chapter/DtcjbxX/"
-      }
-    }  
-  }
+    "title": "Mayonaka Heart Tune",
+    "description": "When Arisu Yamabuki was all alone in bed at night, he was able to find solace in the voice of a radio host who went by \u201cApollo.\u201d However, one day, she simply stopped broadcasting without any explanation.Years then passed, and Arisu is now a second-year high-schooler. He makes it his mission to search for Apollo, as there is something he wants to tell her. He doesn\u2019t know what she looks like, or even what her real name is, but he manages to get some leads on her in his school\u2019s broadcasting club. That\u2019s where he meets four girls who all dream to get a job where they can make full use of their voices! Just who is Apollo, and how will those four\u2019s dreams pan out \n\n(Source: K Manga)",
+    "artist": "Masakuni Igarashi",
+    "author": "Masakuni Igarashi",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx169272-VckwEOBw4djy.jpg",
+    "chapters": {
+        "1": {
+            "title": "Re:Start",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/vwpLf0D/"
+            }
+        },
+        "2": {
+            "title": "A message from Arisu Yamabuki",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/9UKT2G7/"
+            }
+        },
+        "3": {
+            "title": "Liar",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/GwHwWkQ/"
+            }
+        },
+        "4": {
+            "title": "Three weeks until the kiss",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/ZU5sZ6I/"
+            }
+        },
+        "5": {
+            "title": "Overture",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/iEMU2h8/"
+            }
+        },
+        "6": {
+            "title": "Lock the door if it's embarrassing",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/qzMYxAT/"
+            }
+        },
+        "7": {
+            "title": "I can't smile in front of the Camera!",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/In6F4lb/"
+            }
+        },
+        "8": {
+            "title": "I can't smile in front of You!",
+            "volume": "1",
+            "last_updated": "1699788853",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/GyDloqd/"
+            }
+        },
+        "9": {
+            "title": "All alone with you until dark",
+            "volume": "1",
+            "last_updated": "1701330438",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/zO987KA/"
+            }
+        },
+        "10": {
+            "title": "Partners in Crime",
+            "volume": "1",
+            "last_updated": "1701330438",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/ZaJeeZX/"
+            }
+        },
+        "11": {
+            "title": "The advisor's name is literally Lemon-chan",
+            "volume": "1",
+            "last_updated": "1702155056",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/MKdYJpq/"
+            }
+        },
+        "12": {
+            "title": "I can't tell whose voice it was",
+            "volume": "1",
+            "last_updated": "1702665629",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/O1ha3HG/"
+            }
+        },
+        "13": {
+            "title": "Arisu Yamabuki-kun",
+            "volume": "1",
+            "last_updated": "1704567724",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/pBMR1FI/"
+            }
+        },
+        "14": {
+            "title": "Flyby anomaly",
+            "volume": "1",
+            "last_updated": "1705515751",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/lO5EWEw/"
+            }
+        },
+        "15": {
+            "title": "Nene saw",
+            "volume": "1",
+            "last_updated": "1705515751",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/Odj73W4/"
+            }
+        },
+        "16": {
+            "title": "Piece of cake",
+            "volume": "1",
+            "last_updated": "1706965556",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/y24nbRn/"
+            }
+        },
+        "17": {
+            "title": "This is very hot, so please be careful",
+            "volume": "1",
+            "last_updated": "1706965556",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/QFdPILW/"
+            }
+        },
+        "18": {
+            "title": "20 points is still within the margin of error",
+            "volume": "1",
+            "last_updated": "1707398606",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/dgzn8dQ/"
+            }
+        },
+        "19": {
+            "title": "Forgetful",
+            "volume": "1",
+            "last_updated": "1708930041",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/XiRLJN9/"
+            }
+        },
+        "20": {
+            "title": "Emotion is a spontaneous process",
+            "volume": "1",
+            "last_updated": "1708930041",
+            "groups": {
+                "": "/proxy/api/imgur/chapter/DtcjbxX/"
+            }
+        },
+        "21": {
+            "title": "Affection is an escalating process",
+            "volume": 1,
+            "last_updated": 1709116482,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/37E1i5T/"
+            }
+        },
+        "22": {
+            "title": "Payback achieved",
+            "volume": 1,
+            "last_updated": 1710260696,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/EfHJZ5r/"
+            }
+        },
+        "23": {
+            "title": "This is all your fault",
+            "volume": 1,
+            "last_updated": 1710863037,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/1fWlWys/"
+            }
+        },
+        "24": {
+            "title": "A bolt from the blue",
+            "volume": 1,
+            "last_updated": 1711466947,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/vavu8tE/"
+            }
+        },
+        "25": {
+            "title": "Direct Contact",
+            "volume": 1,
+            "last_updated": 1712164614,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/r00eQ9R/"
+            }
+        },
+        "26": {
+            "title": "Black wind, white rain",
+            "volume": 1,
+            "last_updated": 1712680719,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/fU543iA/"
+            }
+        }
+    }
 }
