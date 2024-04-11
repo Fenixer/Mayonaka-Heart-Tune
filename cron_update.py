@@ -1,8 +1,15 @@
+import os
 import feedparser
 import re
 import time
 import json
 import requests
+
+from github import Github
+from dotenv import load_dotenv
+
+_ = load_dotenv()
+
 
 feed_url = "https://www.reddit.com/r/MayonakaHeartTune.rss"
 volume = 1
@@ -46,10 +53,23 @@ def update_chapter():
         }
     }
 
-    with open('chapters.json', 'w') as file:
-        json.dump(data, file, indent=4)
+    # with open('chapters.json', 'w') as file:
+    #     json.dump(data, file, indent=4)
 
-    print(f"Updated chapter {chapter_number}")
+    # print(f"Updated chapter {chapter_number}")
+
+
+    # Create a Github instance
+    g = Github(os.getenv("github_token"))
+
+    # Get the repository
+    repo = g.get_repo("Fenixer/Mayonaka-Heart-Tune")
+
+    # Get the file
+    file = repo.get_contents("chapters.json")
+
+    # Update the file
+    repo.update_file(file.path, f"Added {chapter_number or '👍'}", json.dumps(data,indent=4), file.sha)
 
 if __name__ == "__main__":
     update_chapter()
