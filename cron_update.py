@@ -17,6 +17,8 @@ def update_chapter():
     if match:
         chapter_code = match.group(1)
 
+    print(f"Imgur link: https://cubari.moe/read/imgur/{chapter_code}")
+    
     title = requests.get(f"https://cubari.moe/read/api/imgur/series/{chapter_code}/").json()['title']
 
     regex = r"Chapter (\d+) ?[.|:!?]? ? [.|:!?]?([^.|!?]*)"
@@ -46,6 +48,8 @@ def update_chapter():
 
     with open('chapters.json', 'w') as file:
         json.dump(data, file, indent=4)
+
+    print(f"Updated chapter {chapter_number}")
 
 if __name__ == "__main__":
     update_chapter()
