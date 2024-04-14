@@ -1,5 +1,8 @@
 name: run cron_update.py
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Daily at 00:00 UTC
     - cron: '0 0 * * *'
