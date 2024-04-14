@@ -1,0 +1,22 @@
+[tool.isort]
+known_third_party = ["dotenv", "feedparser", "github", "requests"]
+profile= "black"
+
+[tool.poetry]
+name = "mayonaka-heart-tune"
+version = "0.1.0"
+description = "A script to update the gist automatically"
+authors = ["infernalsaber <72517486+infernalsaber@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+feedparser = "^6.0.11"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+pygithub = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
