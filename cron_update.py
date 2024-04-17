@@ -1,12 +1,12 @@
+import json
 import os
-import feedparser
 import re
 import time
-import json
-import requests
 
-from github import Github
+import feedparser
+import requests
 from dotenv import load_dotenv
+from github import Github
 
 _ = load_dotenv()
 
@@ -28,7 +28,7 @@ def update_chapter():
     
     title = requests.get(f"https://cubari.moe/read/api/imgur/series/{chapter_code}/").json()['title']
 
-    regex = r"Chapter (\d+) ?[.|:!?]? ? [.|:!?]?([^.|!?]*)"
+    regex = r"Chapter (\d+) ?[.|\-:!?]? ? [.|:!?]?([^.|!?]*)"
 
 
     matches = re.search(regex, title)
