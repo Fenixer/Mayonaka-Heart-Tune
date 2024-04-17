@@ -69,7 +69,7 @@ def update_chapter():
     file = repo.get_contents("chapters.json")
 
     # Update the file
-    repo.update_file(file.path, f"Added {chapter_number or '👍'}", json.dumps(data,indent=4), file.sha)
+    repo.update_file(file.path, f"Auto Commit: Added {chapter_number or '👍'}", json.dumps(data,indent=4), file.sha)
 
 if __name__ == "__main__":
     update_chapter()
