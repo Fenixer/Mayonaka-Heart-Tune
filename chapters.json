@@ -228,6 +228,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/oP7GWnj/"
             }
-        }
+        },
+        "29": {
+            "title": "Chapter 29",
+            "volume": 1,
+            "last_updated": 1715275544,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/0RmljmQ/"
+            }
+        }       
     }
 }
