@@ -236,6 +236,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/0RmljmQ/"
             }
-        }       
+        },
+        "30": {
+            "title": "Celestial",
+            "volume": 1,
+            "last_updated": 1715704374,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/HvlP3BB/"
+            }
+        }  
     }
 }
