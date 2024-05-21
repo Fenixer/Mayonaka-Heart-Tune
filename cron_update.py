@@ -11,13 +11,13 @@ from github import Github
 _ = load_dotenv()
 
 
-feed_url = "https://www.reddit.com/r/MayonakaHeartTune.rss"
+feed_url = "https://www.reddit.com/r/TuneIntoTheMidnight/"
 volume = 1
 
 def update_chapter():
     rss = feedparser.parse(feed_url)
 
-    link_etc = rss['entries'][1]['content'][0]['value']
+    link_etc = rss['entries'][0]['content'][0]['value']
 
 
     match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
