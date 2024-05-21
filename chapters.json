@@ -244,6 +244,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/HvlP3BB/"
             }
-        }  
+        },
+        "31": {
+            "title": "In Rikka's front row",
+            "volume": 1,
+            "last_updated": 1716313372,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/865JyF7/"
+            }
+        }
     }
 }
