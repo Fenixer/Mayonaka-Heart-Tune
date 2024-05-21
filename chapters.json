@@ -220,6 +220,30 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/MYiCDX9/"
             }
-        }
+        },
+        "28": {
+            "title": "While one wasnt looking",
+            "volume": 1,
+            "last_updated": 1713919014,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/oP7GWnj/"
+            }
+        },
+        "29": {
+            "title": "Secret Track",
+            "volume": 1,
+            "last_updated": 1715275544,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/0RmljmQ/"
+            }
+        },
+        "30": {
+            "title": "Celestial",
+            "volume": 1,
+            "last_updated": 1715704374,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/HvlP3BB/"
+            }
+        }  
     }
 }
