@@ -32,8 +32,11 @@ def update_chapter():
 
 
     matches = re.search(regex, title)
-    chapter_number = eval(matches.group(1).strip())
-    chapter_title = matches.group(2).replace("'", "").replace('"', "").strip()
+    chapter_number = eval(re.search(r"Chapter (\d+)", title).group(1).strip())
+    try:
+        chapter_title = matches.group(2).replace("'", "").replace('"', "").strip()
+    except:
+        chapter_title = f"Chapter {chapter_number}"
     vol = volume or chapter_number/10
 
     with open('chapters.json', 'r', encoding="utf8") as file:
