@@ -11,7 +11,7 @@ from github import Github
 _ = load_dotenv()
 
 
-feed_url = "https://www.reddit.com/r/TuneIntoTheMidnight/"
+feed_url = "https://www.reddit.com/r/TuneIntoTheMidnight.rss"
 volume = 1
 
 def update_chapter():
