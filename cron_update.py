@@ -17,7 +17,7 @@ volume = 1
 def update_chapter():
     rss = feedparser.parse(feed_url)
 
-    link_etc = rss['entries'][0]['content'][0]['value']
+    link_etc = rss['entries'][1]['content'][0]['value']
 
 
     match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
