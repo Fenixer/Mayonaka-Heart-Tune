@@ -11,7 +11,7 @@ from github import Github
 _ = load_dotenv()
 
 
-feed_url = "https://www.reddit.com/r/TuneIntoTheMidnight.rss"
+feed_url = "https://www.reddit.com/r/MayonakaHeartTune.rss"
 volume = 1
 
 def update_chapter():
@@ -23,6 +23,8 @@ def update_chapter():
     match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
     if match:
         chapter_code = match.group(1)
+    else:
+        return
 
     print(f"Imgur link: https://cubari.moe/read/imgur/{chapter_code}")
     
@@ -59,7 +61,7 @@ def update_chapter():
     # with open('chapters.json', 'w') as file:
     #     json.dump(data, file, indent=4)
 
-    # print(f"Updated chapter {chapter_number}")
+    print(f"Updated chapter {chapter_number}")
 
 
     # Create a Github instance
