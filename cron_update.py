@@ -63,7 +63,7 @@ def update_chapter():
 
 
     # Create a Github instance
-    g = Github(os.getenv("github_token"))
+    g = Github(os.getenv("UPDATE_TOKEN"))
 
     # Get the repository
     repo = g.get_repo("Fenixer/Mayonaka-Heart-Tune")
