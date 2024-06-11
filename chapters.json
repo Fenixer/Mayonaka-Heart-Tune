@@ -253,20 +253,20 @@
                 "": "/proxy/api/imgur/chapter/865JyF7/"
             }
         },
-        "32": {
-            "title": "Defiance",
-            "volume": 1,
-            "last_updated": 1717085313,
-            "groups": {
-                "": "/proxy/api/imgur/chapter/RjY2HJU/"
-            }
-        },
         "33": {
             "title": "Her free-response answers are all nonsense",
             "volume": 1,
-            "last_updated": 1717606763,
+            "last_updated": 1717588152,
             "groups": {
                 "": "/proxy/api/imgur/chapter/QxnUDgk/"
+            }
+        },
+        "34": {
+            "title": "Struck by the magic of the night",
+            "volume": 1,
+            "last_updated": 1718120736,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/0aJVziZ/"
             }
         }
     }
