@@ -208,7 +208,7 @@
         "26": {
             "title": "Black wind, white rain",
             "volume": 1,
-            "last_updated": 1712680719,
+            "last_updated": 1719335516,
             "groups": {
                 "": "/proxy/api/imgur/chapter/fU543iA/"
             }
@@ -283,6 +283,14 @@
             "last_updated": 1718972239,
             "groups": {
                 "": "/proxy/api/imgur/chapter/98zUr5y/"
+            }
+        },
+        "36": {
+            "title": "The amidakuji willed it",
+            "volume": 1,
+            "last_updated": 1719335521,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/kdcRYvb/"
             }
         }
     }
