@@ -285,7 +285,7 @@
                 "": "/proxy/api/imgur/chapter/98zUr5y/"
             }
         },
-       "36": {
+        "36": {
             "title": "The amidakuji willed it",
             "volume": 1,
             "last_updated": 1719335820,
@@ -307,6 +307,14 @@
             "last_updated": 1720957773,
             "groups": {
                 "": "/proxy/api/imgur/chapter/yrw60sm/"
+            }
+        },
+        "39.0": {
+            "title": "Putting Skin in the Game just for You",
+            "volume": 1,
+            "last_updated": 1721142959,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/LsOf1Zp/"
             }
         }
     }
