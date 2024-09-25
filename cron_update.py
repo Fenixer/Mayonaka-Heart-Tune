@@ -33,8 +33,8 @@ def update_chapter():
     regex = r"Chapter (\d+) ?[.|\-:!?]? ? [.|:!?]?([^.|!?]*)"
 
 
-    matches = re.search(regex, title)
-    chapter_number = eval(re.search(r"Chapter (\d+)", title).group(1).strip())
+    matches = re.search(regex, link_etc)
+    chapter_number = eval(re.search(r"Chapter (\d+)", link_etc, flags=re.IGNORECASE).group(1).strip())
     try:
         chapter_title = matches.group(2).replace("'", "").replace('"', "").strip()
     except:
@@ -65,16 +65,21 @@ def update_chapter():
 
 
     # Create a Github instance
-    g = Github(os.getenv("UPDATE_TOKEN"))
+
+    os.system("git add .")
+    os.system(f'git commit -m "Auto Commit: Added {chapter_number}"')
+    os.system("git push")
+
+    # g = Github(os.getenv("UPDATE_TOKEN"))
 
     # Get the repository
-    repo = g.get_repo("Fenixer/Mayonaka-Heart-Tune")
+    # repo = g.get_repo("Fenixer/Mayonaka-Heart-Tune")
 
     # Get the file
-    file = repo.get_contents("chapters.json")
+    # file = repo.get_contents("chapters.json")
 
     # Update the file
-    repo.update_file(file.path, f"Auto Commit: Added {chapter_number or '👍'}", json.dumps(data,indent=4), file.sha)
+    # repo.update_file(file.path, f"Auto Commit: Added {chapter_number or '👍'}", json.dumps(data,indent=4), file.sha)
 
 if __name__ == "__main__":
     update_chapter()
