@@ -58,8 +58,8 @@ def update_chapter():
         }
     }
 
-    # with open('chapters.json', 'w') as file:
-    #     json.dump(data, file, indent=4)
+    with open('chapters.json', 'w') as file:
+        json.dump(data, file, indent=4)
 
     print(f"Updated chapter {chapter_number}")
 
