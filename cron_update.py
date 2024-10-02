@@ -65,7 +65,8 @@ def update_chapter():
 
 
     # Create a Github instance
-
+    os.system("git config user.name fenixer")
+    os.system("git config user.email 143337992+Fenixer@users.noreply.github.com")
     os.system("git add .")
     os.system(f'git commit -m "Auto Commit: Added {chapter_number}"')
     os.system("git push")
