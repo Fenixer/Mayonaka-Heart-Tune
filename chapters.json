@@ -396,6 +396,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/qIvzXMj/"
             }
+        },
+        "50": {
+            "title": "Chapter 50",
+            "volume": 1,
+            "last_updated": 1729015996,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/6BwnDRo/"
+            }
         }
     }
 }
