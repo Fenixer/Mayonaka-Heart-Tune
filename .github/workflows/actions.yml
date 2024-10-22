@@ -4,8 +4,10 @@ on:
     branches:
       - master
   schedule:
-    # Daily at 00:00 UTC
-    - cron: '0 0,6,12,18 * * *'
+    # Runs every 2 hours on Tuesday
+    - cron: '0 */2 * * 2'
+    # Runs at midnight and noon on other days (Monday to Saturday)
+    - cron: '0 0,12 * * 1-6'
   
 jobs:
   build:
