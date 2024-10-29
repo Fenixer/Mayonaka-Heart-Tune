@@ -4,8 +4,8 @@ on:
     branches:
       - master
   schedule:
-    # Runs every 2 hours on Tuesday
-    - cron: '0 */2 * * 2'
+    # Likely release day hence more checks
+    - cron: '30 15-17 * * 2'
     # Runs at midnight and noon on other days (Monday to Saturday)
     - cron: '0 0,12 * * 1-6'
   
