@@ -17,13 +17,18 @@ volume = 1
 def update_chapter():
     rss = feedparser.parse(feed_url)
 
-    link_etc = rss['entries'][1]['content'][0]['value']
+    for i in [0,1]:
+        link_etc = rss['entries'][i]['content'][0]['value']
 
+        match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
+        if match:
+            chapter_code = match.group(1)
+            break
+        else:
+            continue
 
-    match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
-    if match:
-        chapter_code = match.group(1)
-    else:
+    if not chapter_code:
+        print("No new chapter")
         return
 
     print(f"Imgur link: https://cubari.moe/read/imgur/{chapter_code}")
