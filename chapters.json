@@ -420,6 +420,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/V1Le4wq/"
             }
+        },
+        "55": {
+            "title": "Chapter 55",
+            "volume": 1,
+            "last_updated": 1732041920,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/uGDi3Dd/"
+            }
         }
     }
 }

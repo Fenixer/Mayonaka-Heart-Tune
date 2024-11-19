@@ -4,9 +4,9 @@ import re
 import time
 
 import feedparser
-import requests
 from dotenv import load_dotenv
-from github import Github
+from io import BytesIO
+from curl_cffi import requests
 
 _ = load_dotenv()
 
@@ -15,9 +15,10 @@ feed_url = "https://www.reddit.com/r/MayonakaHeartTune.rss"
 volume = 1
 
 def update_chapter():
-    rss = feedparser.parse(feed_url)
+    rss_raw = BytesIO(requests.get(feed_url, impersonate="chrome").content)
+    rss = feedparser.parse(rss_raw)
 
-    for i in [0,1,2]:
+    for i in range(0, 5):
         link_etc = rss['entries'][i]['content'][0]['value']
 
         match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
@@ -33,7 +34,7 @@ def update_chapter():
 
     print(f"Imgur link: https://cubari.moe/read/imgur/{chapter_code}")
     
-    title = requests.get(f"https://cubari.moe/read/api/imgur/series/{chapter_code}/").json()['title']
+    # title = requests.get(f"https://cubari.moe/read/api/imgur/series/{chapter_code}/").json()['title']
 
     regex = r"Chapter (\d+) ?[.|\-:!?]? ? [.|:!?]?([^.|!?]*)"
 
@@ -70,8 +71,8 @@ def update_chapter():
 
 
     # Create a Github instance
-    os.system("git config user.name fenixer")
-    os.system("git config user.email 143337992+Fenixer@users.noreply.github.com")
+    os.system("git config --local user.name fenixer")
+    os.system("git config --local user.email 143337992+Fenixer@users.noreply.github.com")
     os.system("git add .")
     os.system(f'git commit -m "Auto Commit: Added {chapter_number}"')
     os.system("git push")
