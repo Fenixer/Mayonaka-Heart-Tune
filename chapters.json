@@ -421,10 +421,26 @@
                 "": "/proxy/api/imgur/chapter/V1Le4wq/"
             }
         },
-        "55": {
-            "title": "Chapter 55",
+        "53": {
+            "title": "Where there is a lip, there is a way",
             "volume": 1,
-            "last_updated": 1732041920,
+            "last_updated": 1730825054,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/qex1uvD/"
+            }
+        },
+        "54": {
+            "title": "Always in good hands",
+            "volume": 1,
+            "last_updated": 1731430975,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/GBlgEuh/"
+            }
+        },
+        "55": {
+            "title": "Yamabuki is always nearby",
+            "volume": 1,
+            "last_updated": 1732041362,
             "groups": {
                 "": "/proxy/api/imgur/chapter/uGDi3Dd/"
             }
