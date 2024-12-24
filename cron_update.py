@@ -73,6 +73,7 @@ def update_chapter():
 
     if not chapters:
         print("No new chapter")
+        return
     chapter_number = ", ch".join(chapters)
 
     # Create a Github instance
