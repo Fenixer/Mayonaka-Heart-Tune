@@ -20,13 +20,13 @@ def update_chapter():
 
     chapters = []
 
-    for i in range(0, 5):
+    for i in range(0, 10):
         link_etc = rss['entries'][i]['content'][0]['value']
 
         match = re.search(r"cubari.moe/read/imgur/(\w+)", link_etc)
         if match:
             chapter_code = match.group(1)
-            break
+            # break
         else:
             continue
 
@@ -53,7 +53,7 @@ def update_chapter():
 
         if str(chapter_number) in list(data['chapters'].keys()):
             print(f"Chapter {chapter_number} already exists")
-            return
+            continue
 
 
         data['chapters'][chapter_number] = {
@@ -69,8 +69,10 @@ def update_chapter():
             json.dump(data, file, indent=4)
 
         print(f"Updated chapter {chapter_number}")
-        chapters.append(chapter_number)
+        chapters.append(str(chapter_number))
 
+    if not chapters:
+        print("No new chapter")
     chapter_number = ", ch".join(chapters)
 
     # Create a Github instance
