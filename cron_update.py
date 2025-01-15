@@ -11,7 +11,7 @@ from curl_cffi import requests
 _ = load_dotenv()
 
 
-feed_url = "https://www.reddit.com/r/MayonakaHeartTune.rss"
+feed_url = "https://www.reddit.com/r/TuneIntoTheMidnight.rss"
 volume = 1
 
 def update_chapter():
