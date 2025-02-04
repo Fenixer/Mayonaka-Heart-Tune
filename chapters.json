@@ -494,7 +494,7 @@
             }
         },
         "62": {
-            "title": "Chapter 62",
+            "title": "Practice for Romance",
             "volume": 1,
             "last_updated": 1737472760,
             "groups": {
@@ -502,11 +502,19 @@
             }
         },
         "63": {
-            "title": "Chapter 63",
+            "title": "There's nothing for me to be embarrassed about",
             "volume": 1,
             "last_updated": 1738077556,
             "groups": {
                 "": "/proxy/api/imgur/chapter/Kap4MGk/"
+            }
+        },
+        "64": {
+            "title": "Doing a 180",
+            "volume": 1,
+            "last_updated": 1738690665,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/mM9KPlW/"
             }
         }
     }
