@@ -548,6 +548,14 @@
             "groups": {
                 "": "/proxy/api/imgur/chapter/vNoecJU/"
             }
+        },
+        "69": {
+            "title": "Chapter 69",
+            "volume": 1,
+            "last_updated": 1742311302,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/nugMTAk/"
+            }
         }
     }
 }
