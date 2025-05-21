@@ -566,7 +566,7 @@
             }
         },
         "71": {
-            "title": "Chapter 71",
+            "title": "Pathfinder",
             "volume": 1,
             "last_updated": 1744125734,
             "groups": {
@@ -574,7 +574,7 @@
             }
         },
         "72": {
-            "title": "Chapter 72",
+            "title": "This is what I don't really like about you",
             "volume": 1,
             "last_updated": 1744730519,
             "groups": {
@@ -582,7 +582,7 @@
             }
         },
         "73": {
-            "title": "Chapter 73",
+            "title": "Alone with you",
             "volume": 1,
             "last_updated": 1745335287,
             "groups": {
@@ -590,11 +590,27 @@
             }
         },
         "74": {
-            "title": "Chapter 74",
+            "title": "Distractions",
             "volume": 1,
             "last_updated": 1746545263,
             "groups": {
                 "": "/proxy/api/imgur/chapter/u5H4G50/"
+            }
+        },
+        "75": {
+            "title": "One more time!",
+            "volume": 1,
+            "last_updated": 1747853021,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/6DUBlLe/"
+            }
+        },
+        "76": {
+            "title": "She still went all out anyway",
+            "volume": 1,
+            "last_updated": 1747853021,
+            "groups": {
+                "": "/proxy/api/imgur/chapter/yzg3EMI/"
             }
         }
     }
